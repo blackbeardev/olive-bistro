@@ -1,0 +1,605 @@
+.hero {
+  background: url(../img/hero-bg2.jpg) 0 0 no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
+
+.logo-img {
+  /*margin-left: 1.5em;*/
+  margin-left: 3em;
+  margin-top: 15px;
+  width: 100px;
+  height: 50px;
+}
+
+.hero h1 {
+  /*position: absolute;
+  top: 150px;*/
+  padding: 3em 1em 0 1em;
+  text-align: center;
+  color: #fff;
+}
+
+.hero hr {
+  width: 50%;
+  margin: 1em auto 0 auto;
+}
+
+.hero-title-ctas {
+  text-align: center;
+  margin: 1em auto 0 auto;
+  /*padding: 0 5em;*/
+  width: 150px;
+}
+
+.book-table-btn {
+    border: 1px solid #fff;
+    margin-bottom: 1em;
+    padding: 0.5em 1em;
+    background: rgba(0,0,0,0.5);
+}
+
+.book-table-btn a:hover {
+  color: #fff;
+}
+
+.see-menu-btn {
+    border: 1px solid #fff;
+    margin-bottom: 1em;
+    padding: 0.5em 1em;
+    background: rgba(0,0,0,0.5);
+}
+
+.see-menu-btn a:hover {
+  color: #fff;
+}
+
+/*======================================================================*/
+/*Navigation Menu*/
+/*======================================================================*/
+
+header {
+
+  background: rgba(0,0,0,0.8);
+	width: 100%;
+	height: 76px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	/*border-bottom: 4px solid #4C9CF1;*/
+	z-index: 100;
+
+}
+
+a {
+
+	color: #c90;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+a:hover {
+
+	color: #444;
+
+}
+
+.flex-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav {
+
+	/*float: left;*/
+	padding: 20px;
+
+}
+
+#menu-icon {
+
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: rgba(0,0,0,0.8) url(../img/menu-icon.png) center;
+
+}
+
+a:hover#menu-icon {
+
+	background-color: #444;
+	border-radius: 4px 4px 0 0;
+
+}
+
+ul {
+
+	list-style: none;
+
+}
+
+li {
+
+	display: inline-block;
+	float: left;
+	padding: 10px
+
+}
+
+.current {
+
+	color: #2262AD;
+
+}
+
+
+
+/*MEDIA QUERY*/
+@media only screen and (max-width : 640px) {
+
+	header {
+
+		position: absolute;
+
+	}
+
+	#menu-icon {
+
+		display:inline-block;
+
+	}
+
+	nav ul, nav:active ul {
+
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #fff;
+		border: 5px solid #444;
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		/*border-radius: 4px 0 4px 4px;*/
+
+	}
+
+	nav li {
+
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+
+	}
+
+	nav:hover ul {
+
+		display: block;
+
+	}
+}
+
+/*===============================================*/
+/*About Section*/
+/*===============================================*/
+.rightFood {
+  margin-top: 2em;
+  padding: 0 2em;
+  /*border: 1px solid red;*/
+}
+
+.rightFood hr {
+  width: 50%;
+  margin: 1em auto;
+}
+
+
+.rightFood img {
+  width: 50%;
+  margin-top: 1em;
+}
+
+.about-dish-img {
+  width: 50%;
+}
+
+/*===============================================*/
+/*Fine Ingredients*/
+/*===============================================*/
+
+.highlight-block {
+
+  /*border: 2px solid red;*/
+  padding: 1em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.highlight-block-ingredients {
+  background: url(../img/ingredients-bg.jpg) 0 0 no-repeat;
+  background-size: cover;
+}
+
+.highlight-block-text {
+  /*border: 1px solid green;*/
+  background: rgba(0,0,0,0.5);
+  padding: 0.5em;
+}
+
+.highlight-block-text p {
+  color: #fff;
+}
+
+.highlight-block-text hr {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.ingredients-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.ingredients-img img {
+  border: 4px solid #494d4e;
+  border-radius: 150px;
+  width: 80%;
+}
+
+/*===============================================*/
+/*Menu*/
+/*===============================================*/
+
+.menu {
+
+}
+
+.menu h2 {
+  margin-top: 1.5em;
+}
+
+.section-divider {
+  margin-top: 1.5em;
+}
+
+.menu hr {
+  width: 50%;
+  margin: 0.5em auto;
+}
+
+.menu-flex {
+  margin-top: 1em;
+}
+
+.menu p {
+  padding: 0 1em;
+}
+
+/*===============================================*/
+/*Reviews*/
+/*===============================================*/
+
+.highlight-block-reviews {
+  background: url(../img/reviews-bg2.jpg) 0 0 no-repeat;
+  background-size: cover;
+
+}
+
+.highlight-block-reviews {
+  margin-top: 2.5em;
+}
+
+
+/*===============================================*/
+/*Contact Form*/
+/*===============================================*/
+
+.contactImages {
+  display: none;
+
+}
+
+.contactForm {
+  /*border: 1px solid red;*/
+  /*padding: 1em;*/
+  text-align: center;
+  margin-top: 2em;
+}
+
+.contactForm hr {
+  width: 50%;
+  margin: 1em auto;
+}
+
+.contactForm-text {
+  line-height: 1.5;
+  padding: 1em 2em;
+}
+
+form {
+  margin: 1em 0;
+  /*border: 1px solid red;*/
+  padding: 0 1em;
+}
+
+form input,
+form select {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 1em;
+  border: 2px solid #666;
+  /*border-radius: 90px;*/
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  padding-left: 2em;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    padding-left: 2em;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    padding-left: 2em;
+}
+:-moz-placeholder { /* Firefox 18- */
+    padding-left: 2em;
+}
+
+.contact-form__btn {
+  background: #c90;
+  color: #fff;
+  padding: 1em 2em;
+  border: #fff;
+  cursor: pointer;
+}
+
+.contact-form__btn:hover {
+  color: #000;
+}
+
+
+/*===============================================*/
+/*Footer*/
+/*===============================================*/
+
+footer {
+  background: #212121;
+  text-align: center;
+  margin-top: 2em;
+}
+
+
+
+footer h3 {
+  color: #fff;
+	padding: 1em;
+}
+
+footer i {
+  color: #fff;
+	font-size: 3rem;
+	padding: 10px;
+}
+
+
+.footer__payment {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+footer p {
+  color: #999;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+footer hr {
+  width: 50%;
+  margin: 1em auto;
+}
+
+
+
+
+
+/*  GRID OF TWO   ============================================================================= */
+
+
+.span_2_of_2 {
+	width: 100%;
+
+}
+
+.span_1_of_2 {
+	width: 50%;
+	/*background: green;*/
+
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 700px) {
+	.span_2_of_2 {
+		width: 100%;
+	}
+	.span_1_of_2 {
+		width: 100%;
+	}
+
+
+
+}
+
+
+@media only screen and (min-width: 701px) {
+
+  .hidden {
+    display: none;
+  }
+
+
+  /*===============================================*/
+  /*About Section*/
+  /*===============================================*/
+
+  .about-dish-img {
+    width: 80%;
+    margin-top: 3em;
+  }
+
+  .image-block {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /*===============================================*/
+  /*Fine Ingredients*/
+  /*===============================================*/
+
+  .highlight-block-text {
+    padding: 3em 2em;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .highlight-block-text p {
+    /*color: #fff;*/
+    line-height: 1.7;
+    margin-bottom: 1em;
+  }
+
+  .highlight-block-text hr {
+    width: 50%;
+    margin: 1em auto;
+  }
+
+  .ingredients-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .ingredients-img img {
+    border: 4px solid #494d4e;
+    border-radius: 150px;
+    width: 80%;
+  }
+
+  /*===============================================*/
+  /*Contact Form*/
+  /*===============================================*/
+
+  /*#contact {
+    margin-top: 2em;
+  }*/
+
+  .contactImages {
+    display: block;
+
+  }
+
+  #food-image-two {
+    display: none;
+
+  }
+
+  form input,
+  form select {
+    width: 80%;
+  }
+
+
+  /*===============================================*/
+  /*Footer*/
+  /*===============================================*/
+
+  .footer__payment i {
+    font-size: 1.5rem;
+  }
+
+  .footer__social-media i {
+    font-size: 1.5rem;
+  }
+
+}
+
+@media only screen and (min-width: 1050px) {
+
+  .hero {
+    min-height: 600px;
+  }
+
+
+
+  .hero h1 {
+    padding: 2em 1em 0 1em;
+    font-size: 5rem;
+  }
+
+  .hero hr {
+    width: 20%;
+    margin: 1em auto 0 auto;
+  }
+
+  .hero-title-ctas {
+    margin: 2em auto 0 auto;
+  }
+
+  /*===============================================*/
+  /*About Section*/
+  /*===============================================*/
+  .rightFood {
+    margin-top: 3em;
+    margin-left: 3em;
+  }
+
+  .about-dish-img {
+    width: 40%;
+    margin-right: 2em;
+  }
+
+
+
+  /*===============================================*/
+  /*Fine Ingredients*/
+  /*===============================================*/
+
+  .highlight-block-text {
+    max-width: 45%;
+    margin: 3em auto;
+    height: 400px;
+  }
+
+  .highlight-block-text h2 {
+    margin-top: 2em;
+  }
+
+  .highlight-block-text p {
+    line-height: 1.9;
+    margin-bottom: 2em;
+  }
+
+  .highlight-block-text hr {
+    width: 40%;
+  }
+
+
+  #food-image-two {
+    display: block;
+    padding-left: 4em;
+  }
+
+
+
+  .contactImages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+}
