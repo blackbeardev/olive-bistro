@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<!-- HTML5 Boilerplate -->
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- Always force latest IE rendering engine & Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Example of the Responsive Grid System</title>
+	<meta name="description" content="This is the Responsive Grid System, a quick, easy and flexible way to create a responsive web site.">
+	<meta name="keywords" content="responsive, grid, system, web design">
+
+	<meta name="author" content="www.grahamrobertsonmiller.co.uk">
+
+	<meta http-equiv="cleartype" content="on">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<!-- Responsive and mobile friendly stuff -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/html5reset.css" media="all">
+	<link rel="stylesheet" href="css/col.css" media="all">
+	<link rel="stylesheet" href="css/2cols.css" media="all">
+	<link rel="stylesheet" href="css/3cols.css" media="all">
+</head>
+
+<body>
+
+<!-- Hero image and header section -->
+	<div class="main">
+		<div class="hero">
+			<!-- <div class="logo">
+				<img src="img/logo.png" alt="" class="logo-img">
+			</div> -->
+      <div class="">
+        <header>
+
+          <a href="#" id="logo"></a>
+          <div class="flex-nav">
+
+            <img src="img/logo.png" alt="" class="logo-img">
+            <nav>
+              <a href="#" id="menu-icon"></a>
+              <ul>
+              <!-- <li><a href="#" class="current">Home</a></li> -->
+              <li><a href="#about">About</a></li>
+              <li><a href="#ingredients">Ingredients</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#reviews">Reviews</a></li>
+              <li><a href="#contact">Contact</a></li>
+
+              </ul>
+            </nav>
+          </div>
+
+
+        </header>
+      </div>
+      <h1 id="hero-text">the right ingredients <br>for the right food</h1>
+      <hr>
+      <div class="hero-title-ctas">
+        <div class="book-table-btn">
+            <a href="">BOOK A TABLE</a>
+        </div>
+        <div class="see-menu-btn">
+          <div>
+            <a href="">SEE THE MENU</a>
+          </div>
+        </div>
+      </div>
+		</div>  <!--Hero closing div-->
+
+<!-- Just the right food section -->
+
+		<div class="section group" id="about">
+			<div class="col span_1_of_2">
+        <div class="rightFood">
+          <h2>Just the right food</h2>
+          <hr>
+          <p>If you've been to one of our restaurants, you've seen - and tasted - what keeps our customers coming back for more.<br>Perfect materials and freshly baked food, delicious cakes, muffins, and gourmet coffees make us hard to resist!<br>Stop in today and check us out!</p>
+          <img src="img/chef.png" alt="">
+        </div>
+			</div>
+
+			<div class="col span_1_of_2">
+        <img src="img/dish2.jpg" alt="" class="about-dish-img hidden">
+			</div>
+		</div>
+
+<!--Fine Ingredients section -->
+
+		<div class="main" id="ingredients">
+      <div class="highlight-block highlight-block-ingredients">
+        <div class="highlight-block-text">
+          <h2>Fine ingredients</h2>
+          <hr>
+          <p>If you've been to one of our restaurants, you've seen - and tasted - what keeps our customers coming back for more.<br>Perfect materials and freshly baked food, delicious cakes, muffins and gourmet coffees make us hard to resist!<br>Stop in today and check us out!</p>
+          <div class="ingredients-img">
+            <div class="img-round img-round-1">
+              <img src="img/01-wheat2.jpg" alt="">
+            </div>
+            <div class="img-round">
+              <img src="img/02-spices2.jpg" alt="">
+            </div>
+            <div class="img-round">
+              <img src="img/03-bread2.jpg" alt="">
+            </div>
+          </div>
+        </div>
+
+      </div>
+		</div>
+
+<!-- Menu section -->
+
+		<div class="section group" id="menu">  <!--Opening div for section group -->
+
+			<div class="col span_1_of_2 menu">  <!--Opening div for first col span_1_of_2 -->
+        <h2>Appetisers</h2>
+        <div class="menu-flex">  <!--Menu-flex opening div-->
+          <div>
+            <h3>Tzatsiki</h3>
+          </div>
+          <div>
+            <h3>$3.99</h3>
+          </div>
+        </div>   <!--Menu-flex closing div-->
+        <hr>
+        <p>Refreshing traditional cucumber and garlic in yoghurt dip.</p>
+        <div class="menu-flex">  <!--Menu-flex opening div-->
+          <div>
+            <h3>Aubergine Salad</h3>
+          </div>
+          <div>
+            <h3>$5.50</h3>
+          </div>
+        </div>   <!--Menu-flex closing div-->
+        <hr>
+        <p>Pureed eggplant, garlic, green pepper and tomato dip.</p>
+        <div class="menu-flex">  <!--Menu-flex opening div-->
+          <div>
+            <h3>Kokomo Shrimp</h3>
+          </div>
+          <div>
+            <h3>$8.00</h3>
+          </div>
+        </div>   <!--Menu-flex closing div-->
+        <hr>
+        <p>Coconut battered shrimp, golden fried.</p>
+        <h2 class="section-divider">Salads</h2>
+        <!-- <hr class="menu-type-title"> -->
+        <div class="menu-flex">  <!--Menu-flex opening div-->
+          <div>
+            <h3>Olive Special</h3>
+          </div>
+          <div>
+            <h3>$7.50</h3>
+          </div>
+        </div>   <!--Menu-flex closing div-->
+        <hr>
+        <p>Tantilising greens with olives and sundried tomatoes.</p>
+        <div class="menu-flex">  <!--Menu-flex opening div-->
+          <div>
+            <h3>Greek Salad</h3>
+          </div>
+          <div>
+            <h3>$12.00</h3>
+          </div>
+        </div>   <!--Menu-flex closing div-->
+        <hr>
+        <p>Delectable cos lettuce with juicy olives and salty feta.</p>
+        <div class="menu-flex">  <!--Menu-flex opening div-->
+          <div>
+            <h3>Caesar Salad</h3>
+          </div>
+          <div>
+            <h3>$15.00</h3>
+          </div>
+        </div>   <!--Menu-flex closing div-->
+        <hr>
+        <p>Vege, chicken or bacon version of the classic.</p>
+
+			</div>  <!--Closing div for first col span_1_of_2 -->
+
+			<div class="col span_1_of_2 menu">   <!--Opening div for second col span_1_of_2-->
+        <h2>Starters</h2>
+        <!-- <hr class="menu-type-title"> -->
+        <div class="menu-flex">  <!--Menu-flex opening div-->
+          <div>
+            <h3>Curly Fries</h3>
+          </div>
+          <div>
+            <h3>$4.99</h3>
+          </div>
+        </div>   <!--Menu-flex closing div-->
+        <hr>
+        <p>Crispy curly fries, served with aoili and chilli sauce</p>
+        <div class="menu-flex">  <!--Menu-flex opening div-->
+          <div>
+            <h3>Haloumi</h3>
+          </div>
+          <div>
+            <h3>$3.99</h3>
+          </div>
+        </div>   <!--Menu-flex closing div-->
+        <hr>
+        <p>Perfectly grilled haloumi slices, with dipping sauce.</p>
+        <div class="menu-flex">  <!--Menu-flex opening div-->
+          <div>
+            <h3>Frickles</h3>
+          </div>
+          <div>
+            <h3>$5.50</h3>
+          </div>
+        </div>   <!--Menu-flex closing div-->
+        <hr>
+        <p>Dill pickles lightly battered and fried, with ranch dressing.</p>
+        <h2 class="section-divider">Main Dishes</h2>
+        <!-- <hr class="menu-type-title"> -->
+        <div class="menu-flex">  <!--Menu-flex opening div-->
+          <div>
+            <h3>Sweet and Sour Duck</h3>
+          </div>
+          <div>
+            <h3>$30.00</h3>
+          </div>
+        </div>   <!--Menu-flex closing div-->
+        <hr>
+        <p>Perfectly cooked duck, served with fresh greens and puffed potatoes.</p>
+        <div class="menu-flex">  <!--Menu-flex opening div-->
+          <div>
+            <h3>Veal from Limousin breeding</h3>
+          </div>
+          <div>
+            <h3>$35.50</h3>
+          </div>
+        </div>   <!--Menu-flex closing div-->
+        <hr>
+        <p>Tender veal, served with romain lettuce and broad beans.</p>
+        <div class="menu-flex">  <!--Menu-flex opening div-->
+          <div>
+            <h3>Wagyu Eye Fillet</h3>
+          </div>
+          <div>
+            <h3>$45.00</h3>
+          </div>
+        </div>   <!--Menu-flex closing div-->
+        <hr>
+        <p>Premium eye fillet, served with creamy potato gratin</p>
+
+			</div>  <!--Closing div for second col span_1_of_2-->
+
+		</div>  <!--Closing div for section group -->
+
+<!-- Guest reviews section -->
+
+		<div class="main" id="reviews">
+      <div class="highlight-block highlight-block-reviews">
+        <div class="highlight-block-text">
+          <h2>Guest Reviews</h2>
+          <hr>
+          <p><em>If you've been to one of our restaurants, you've seen - and tasted - what keeps our customers coming back for more.<br>Perfect materials and freshly baked food, delicious cakes, muffins and gourmet coffees make us hard to resist! Stop in today and check us out!</em><br><strong>food inc</strong>, New York</p>
+        </div>
+      </div>
+		</div>
+
+<!-- Contact form section -->
+
+    <div class="section group" id="contact">  <!--Opening div for section group -->
+      <div class="col span_1_of_2 contactImages">  <!--Opening div for first col span_1_of_2 -->
+          <img src="img/food-01.jpg" alt="" id="food-image-one">
+          <img src="img/food-02.jpg" alt="" id="food-image-two">
+      </div>
+
+      <div class="col span_1_of_2 contactForm">  <!--Opening div for second col span_1_of_2 -->
+        <div class="contactForm-text">
+          <h2>Just the right food</h2>
+          <hr>
+          <p>If you've been to one of our restaurants, you've seen - and tasted - what keeps our customers coming back for more.<br>Perfect materials and freshly baked food.</p>
+        </div>
+
+        <form action="" method="">
+          <div class="contact-form__inputs">
+            <div class="contact-form__inputs-one">
+              <input type="text" placeholder="Your name *">
+              <input type="text" placeholder="Your email *">
+            </div>
+            <div class="contact-form__inputs-two">
+              <input type="text" placeholder="Date *">
+              <br>
+              <!-- <label for="">Guests</label> -->
+              <select name="" id="">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value=">5">>4</option>
+              </select>
+            </div>
+          </div>
+          <button class="contact-form__btn">BOOK NOW!</button>
+        </form>
+
+      </div>
+    </div>  <!--Closing div for section group -->
+
+<!--Footer section -->
+
+		<footer>
+			<div class="section group">
+				<div class="footer-container">   <!--Footer-container section opening div-->
+					<div class="col span_1_of_3">
+						<div class="us">
+							<h3>About Us</h3>
+
+							<p>Brunken's Bistro's new and expanded location represents a truly enjoyable atmosphere with delicious small to main size meals, and a full wine and beer list to accompany your meals.</p>
+								<hr>
+						</div>
+					</div>
+
+					<div class="col span_1_of_3">
+						<div class="opening-hours">
+							<h3>Opening Hours</h3>
+
+							<p><span>Mon-Thu:</span> 7.00am - 8.00pm</p>
+							<p><span>Fri-Sun:</span> 7.00am - 10.00pm</p>
+							<div class="footer__payment">
+								<i class="fa fa-cc-mastercard" aria-hidden="true"></i>
+								<i class="fa fa-cc-visa" aria-hidden="true"></i>
+								<i class="fa fa-cc-amex" aria-hidden="true"></i>
+								<i class="fa fa-cc-paypal" aria-hidden="true"></i>
+							</div>
+							<hr>
+						</div>
+					</div>
+
+					<div class="col span_1_of_3">
+						<div class="location">
+							<h3>Our Location</h3>
+							<p>19th Paradise Street Sitia</p>
+							<p>128 Meserole Avenue</p>
+							<div class="footer__social-media">
+								<i class="fa fa-twitter" aria-hidden="true"></i>
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+								<i class="fa fa-google-plus" aria-hidden="true"></i>
+								<i class="fa fa-youtube" aria-hidden="true"></i>
+							</div>
+              <hr>
+						</div>
+					</div>
+			</div>
+			</div>  <!--Section group closing div-->
+
+		</footer>   <!--Footer section opening div-->
+
+	</div>  <!--Main closing div-->
+
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <!-- <script src="js/menu.js"></script> -->
+  <script type="text/javascript" src="js/main.js"></script>
+  <script src="js/scrolling.js"></script>
+</body>
+</html>
